@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+
+# Flask instance folder
+instance/
+
+# Flask SQLite database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+wheels/
+*.manifest
+*.spec
+
+# Compiled files
+*.o
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy type check
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+tempCodeRunnerFile.py
+
+# Docker
+docker-compose*.yml
+Dockerfile
+
+
+#weights
+pnmodel.keras
+vit_breast_cancer_classifier.pth
+vit_skin_cancer_classifier.pth
+weights.keras
