@@ -19,11 +19,11 @@ import gridfs
 
 
 # Configuration
-genai.configure(api_key="AIzaSyCldpTHPZ5aCHKG-lcnBWTDIs8F8J7BDyM")
+genai.configure(api_key="YOUR_API_KEY")
 
 
 # MongoDB configuration
-uri = "mongodb+srv://prabhjeetdec03:N7O1VfinSE7wJNKg@flaskcluster.rayqc.mongodb.net/?retryWrites=true&w=majority&appName=FlaskCluster"
+uri = "mongodb+srv://prabhjeetdec03:<PASSWORD>@flaskcluster.rayqc.mongodb.net/?retryWrites=true&w=majority&appName=FlaskCluster"
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['DiagnoPlus']
 patients_collection = db['patients']
